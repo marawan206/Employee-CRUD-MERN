@@ -5,7 +5,8 @@
 Employee-CRUD-MERN is a project i'm working on for my MERN Stack journey, this is a only the backend built using MongoDB, ExpressJS, and NodeJS
 It allows administrators to perform CRUD (Create, Read, Update, Delete) operations on employee records
 This project makes sure that employee data can be efficiently managed, I will push the integration with a React frontend in a separate repo
-
+This is also Task 2 for ProdigyInfoTech FSWD Internship
+        
 ## Goal
 - **Develop** a web application that allows administrators to perform CRUD operations on employee records. 
 - **Ensure** the system has proper validation and authentication mechanisms to protect sensitive employee data.
@@ -25,7 +26,7 @@ This project makes sure that employee data can be efficiently managed, I will pu
 - **Frontend (to be added)**: React.js
 
 ## API Endpoints (Postman)
-- You can find the <employeeID> in your MongoDB as `._id`
+- You can find the `<employeeID>` in your MongoDB as `._id`
 ### POST /employee
 - **Description**: Create a new employee record.
 - **Request URL**: `http://localhost:3000/employee`
