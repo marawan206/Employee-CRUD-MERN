@@ -3,6 +3,7 @@
 - Includes frontend as frontend.rar inside repo, unzip files open directory and use `npm start` to run the server
 - I ran it on port 3001 since port 3000 was being used by the backend
 - run the backend server with `npm run devStart`
+- If you run into a problem where npm says that port 3000 is being used, use bash `netstat -ano | findstr: 3000` then kill the task from task manager or `taskkill /PID <PID> /F` 
 
 ## Overview
 
