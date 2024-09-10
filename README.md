@@ -1,5 +1,7 @@
 # Employee-CRUD-MERN
 
+Includes frontend files inside repo
+
 ## Overview
 
 Employee-CRUD-MERN is a project i'm working on for my MERN Stack journey, this is a only the backend built using MongoDB, ExpressJS, and NodeJS
@@ -23,7 +25,7 @@ This is also Task 2 for ProdigyInfoTech FSWD Internship
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB
 - **Testing**: Postman for API requests
-- **Frontend (to be added)**: React.js
+- **Frontend (UPDATE: Added to repo)**: React.js
 
 ## API Endpoints (Postman)
 - You can find the `<employeeID>` in your MongoDB as `._id`
