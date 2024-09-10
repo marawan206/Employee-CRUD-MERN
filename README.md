@@ -1,13 +1,15 @@
 # Employee-CRUD-MERN
 
-Includes frontend files inside repo
+- Includes frontend as frontend.rar inside repo, unzip files open directory and use `npm start` to run the server
+- I ran it on port 3001 since port 3000 was being used by the backend
+- run the backend server with `npm run devStart`
 
 ## Overview
 
 Employee-CRUD-MERN is a project i'm working on for my MERN Stack journey, this is a only the backend built using MongoDB, ExpressJS, and NodeJS
 It allows administrators to perform CRUD (Create, Read, Update, Delete) operations on employee records
-This project makes sure that employee data can be efficiently managed, I will push the integration with a React frontend in a separate repo
-This is also Task 2 for ProdigyInfoTech FSWD Internship
+This project makes sure that employee data can be efficiently managed,
+This is Task 2 for ProdigyInfoTech FSWD Internship
         
 ## Goal
 - **Develop** a web application that allows administrators to perform CRUD operations on employee records. 
@@ -19,6 +21,55 @@ This is also Task 2 for ProdigyInfoTech FSWD Internship
 - **Read Employees**: Fetch all employees or get details of a specific employee by ID.
 - **Update Employee**: Modify the data of an existing employee by ID.
 - **Delete Employee**: Remove an employee record by ID.
+
+## Backend
+
+### File Structure
+
+- **`server.js`**: Main entry point for the Node.js application. Sets up the server and routes.
+- **`WFQ68.jpg`**: Image explaining cookie checking sequence and SameSite: Lax setting.
+  
+#### `/config`
+- **`connectToDB.js`**: Manages database connection logic.
+
+#### `/models`
+- **`employee.js`**: Defines the schema for employee records.
+- **`user.js`**: Defines the schema for user records.
+
+#### `/controllers`
+- **`employeeController.js`**: Handles employee-related API requests.
+- **`usersController.js`**: Handles user-related API requests.
+
+#### `/middleware`
+- **`requireAuth.js`**: Middleware to enforce authentication.
+
+## Frontend
+
+### File Structure
+
+- **`src`**
+  - **`index.js`**: Entry point of the React application.
+
+- **`components`**
+  - **`App.js`**: Main application component.
+  - **`CreateForm.js`**: Form for creating new employee records.
+  - **`Emp.js`**: Component for individual employee details.
+  - **`Employees.js`**: Component for displaying a list of employees.
+  - **`LoginForm.js`**: Form for user login.
+  - **`RequireAuth.js`**: Utility for protecting routes that require authentication.
+  - **`SignupForm.js`**: Form for user registration.
+  - **`UpdateForm.js`**: Form for updating employee records.
+
+- **`pages`**
+  - **`EmpPage.js`**: Page for displaying employee details or lists.
+  - **`LoginPage.js`**: Page for user login.
+  - **`LogoutPage.js`**: Page for handling user logout.
+  - **`SignupPage.js`**: Page for user registration.
+
+- **`stores`**
+  - **`authStore.js`**: Manages authentication state.
+  - **`employeeStore.js`**: Manages employee data.
+
 
 ## Tech Stack
 
@@ -90,4 +141,5 @@ Throughout this project, I learned:
 
 ## Next Steps
 
-The next phase of this project will be the integration of the React frontend, completing the full-stack web application.
+- The next phase of this project will be the integration of the React frontend, completing the full-stack web application. (8-Sep-2024)
+- Next phase is to integrate css in the file
