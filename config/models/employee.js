@@ -5,7 +5,11 @@ const employeeSchema = new mongoose.Schema({
     age: Number,
     gender: String,
     address: String,
-    title: String
+    title: String,
+    user: {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: 'User',
+    }
   });
 
   const Employee = mongoose.model('Employee', employeeSchema);

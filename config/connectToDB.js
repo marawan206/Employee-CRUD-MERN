@@ -1,6 +1,4 @@
-if (process.env.NODE_ENV != 'production') {
-    require('dotenv').config();
-}
+// Deleted .env file import since you only need it in the main server.js
 
 const mongoose = require('mongoose');
 async function connectToDB() {
